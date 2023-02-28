@@ -21,6 +21,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias dev="cd .development"
+alias github-token="gpg -d ~/.personal/access-token/github-token.txt.gpg"
 # alias github-token="gpg -d ~/.personal/access-token/token.txt.gpg"
 
 test -s ~/.alias && . ~/.alias || true
